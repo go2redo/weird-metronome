@@ -1,9 +1,8 @@
-
 const initialState = {
-  bmp: 100,
-  beat: 3,
-  count: 0,
-  run: false
+  bmp: 120,
+  beat: 4,
+  run: false,
+  count: 0
 };
 
 function reducer( state = initialState, action ) {
@@ -11,7 +10,7 @@ function reducer( state = initialState, action ) {
     case 'CHANGE_FIELD':
       return {
         ...state,
-        [action.payload.key]: action.payload.value
+        [ action.payload.key ]: action.payload.value
       }
     default:
       return state;

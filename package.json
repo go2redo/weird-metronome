@@ -8,8 +8,7 @@
     "react-redux": "^6.0.1",
     "react-scripts": "1.1.5",
     "redux": "^4.0.1",
-    "redux-devtools-extension": "^2.13.8",
-    "uikit": "^3.0.3"
+    "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
